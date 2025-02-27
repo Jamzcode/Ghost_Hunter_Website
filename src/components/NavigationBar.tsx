@@ -1,17 +1,19 @@
+import { Link } from "react-router-dom";
+
 export default function NavigationBar() {
   return (
     <nav style={styles.navigation}>
-      <a href="#">About</a>
-      <a href="#">Find a Tour</a>
-      <a href="#">Schedule a Visit</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact Us</a>
+      <Link to="./about">About</Link>
+      <Link to="./tour">Find a Tour</Link>
+      <Link to="./contact">Schedule a Visit</Link>
+      <Link to="./gallery">Gallery</Link>
+      <Link to="./contact">Contact Us</Link>
     </nav>
   );
 }
 
 const styles = {
-    navigation: {
-        backgroundColor: "lightgray"
-    }
-}
+  navigation: {
+    backgroundColor: "lightgray",
+  },
+};
