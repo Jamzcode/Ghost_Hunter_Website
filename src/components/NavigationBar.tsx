@@ -15,5 +15,7 @@ export default function NavigationBar() {
 const styles = {
   navigation: {
     backgroundColor: "lightgray",
+    display: "flex",
+    justifyContent: "space-around"
   },
 };
