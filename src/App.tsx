@@ -4,8 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Tour from "./pages/Tour/Tour";
 import Contact from "./pages/Contact/Contact";
-import Gallery from "./pages/Gallery";
-import Mission from "./pages/Mission";
+import Gallery from "./pages/Gallery/Gallery";
+import Mission from "./pages/Mission/Mission";
 import Shop from "./pages/Shop/Shop";
 import Donation from "./pages/Donation/Donation";
 
@@ -20,7 +20,7 @@ function App() {
       <NavigationBar />
       <div className="routes-view">
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/tour" element={<Tour />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />

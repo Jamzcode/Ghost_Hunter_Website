@@ -1,4 +1,5 @@
 import ImageCard from "../../components/Image/Image";
+import Headline from "../../components/Headline/Headline";
 
 export default function Home() {
   return (
@@ -8,10 +9,8 @@ export default function Home() {
       {/* MAKE: ImageCarousel component */}
 
       <div className="section">
-        This is Homepage
-        <h2>SECTION 1</h2>
         {/* Title */}
-        <div>Welcome to the world of Midknightscares!</div>
+        <Headline headline="Welcome to the world of Midknightscares!" />
         {/* TODO: Add pic */}
         <div>pic</div>
         <ImageCard />

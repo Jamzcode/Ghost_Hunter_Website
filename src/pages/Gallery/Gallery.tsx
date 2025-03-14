@@ -1,12 +1,10 @@
-import ImageCard from "../components/Image/Image";
-
+import ImageCard from "../../components/Image/Image";
+import Headline from "../../components/Headline/Headline";
 export default function Gallery() {
   return (
     <>
       <div className="section">
-        This is Gallerypage
-        <h2>SECTION 3</h2>
-        <h3>Midknightscares vs the spooky things</h3>
+        <Headline headline="Midknightscares vs the spooky things" />
         {/* TODO: Add spot for 10 picture photo gallery(Rotational) */}
         <ImageCard />
         <ImageCard />

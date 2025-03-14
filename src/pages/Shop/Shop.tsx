@@ -1,12 +1,12 @@
 import ImageCard from "../../components/Image/Image";
+import Headline from "../../components/Headline/Headline";
+
 export default function Shop() {
   return (
     <>
       <div className="section">
-        This is Shoppage
         {/* MAKE: Shop page for merchandise */}
-        <h2>SECTION 5</h2>
-        <h3>Midknightscare merchandise</h3>
+        <Headline headline="Midknightscare merchandise" />
         <ImageCard />
         <ImageCard />
         <ImageCard />

@@ -4,9 +4,9 @@ import styles from "./NavigationBar.module.css"
 export default function NavigationBar() {
   return (
     <nav className={styles.navigation}>
-      <Link to="./home">Home</Link>
+      <Link to="./">Home</Link>
       <Link to="./tour">Find a Tour</Link>
-      <Link to="./contact">Schedule a Visit</Link>
+      <Link to="./contact">Contact</Link>
       <Link to="./gallery">Gallery</Link>
       <Link to="./contact">Contact Us</Link>
       <Link to="./mission">Mission</Link>

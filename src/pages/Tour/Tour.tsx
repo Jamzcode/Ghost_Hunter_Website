@@ -1,11 +1,11 @@
 import ImageCard from "../../components/Image/Image";
+import Headline from "../../components/Headline/Headline";
 export default function Tour() {
   return (
     <>
-       <div className="section">
-        <h2>SECTION 10</h2>
-        This is Tourpage
-        <h3>Ghost Hunting, Paranormal investigations, Haunted Walkthroughs</h3>
+      <div className="section">
+        <Headline headline="Ghost Hunting, Paranormal investigations, Haunted Walkthroughs" />
+
         <ImageCard />
         <ImageCard />
         <ImageCard />

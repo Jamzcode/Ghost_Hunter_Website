@@ -1,11 +1,10 @@
 import ImageCard from "../../components/Image/Image";
+import Headline from "../../components/Headline/Headline";
 export default function Contact() {
   return (
     <>
       <div className="section">
-        This is Contactpage
-        <h2>SECTION 7</h2>
-        <h3>Contact me for more Midknightscares</h3>
+        <Headline headline="Contact me for more Midknightscares" />
         <ImageCard />
         <p>
           “Let’s go on an adventure together and see what spooky stuff we can
