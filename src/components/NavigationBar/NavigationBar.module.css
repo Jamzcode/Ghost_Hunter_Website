@@ -1,0 +1,5 @@
+.navigation {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+  }

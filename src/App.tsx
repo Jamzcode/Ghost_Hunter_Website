@@ -1,38 +1,33 @@
+import "./index.css";
 import { Routes, Route } from "react-router-dom";
 
-import About from "./pages/About/About";
-import Tour from "./pages/Tour";
-import Contact from "./pages/Contact";
-import Gallery from "./pages/Gallery"
+import Home from "./pages/Home/Home";
+import Tour from "./pages/Tour/Tour";
+import Contact from "./pages/Contact/Contact";
+import Gallery from "./pages/Gallery";
+import Mission from "./pages/Mission";
+import Shop from "./pages/Shop/Shop";
+import Donation from "./pages/Donation/Donation";
 
-// import Image from "./components/Image";
-// import Button from "./components/Button";
-import Title from "./components/Title";
-import NavigationBar from "./components/NavigationBar";
-// import Text from "./components/Text";
+import Title from "./components/Title/Title";
+import NavigationBar from "./components/NavigationBar/NavigationBar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
-      {/* Website Title Component */}
       <Title />
-
-      {/* Navigation Bar Component */}
       <NavigationBar />
       <Routes>
-        <Route path="/about" element={<About />}/>
+        <Route path="/home" element={<Home />} />
         <Route path="/tour" element={<Tour />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/mission" element={<Mission />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/donation" element={<Donation />} />
       </Routes>
-
-      {/* Text Box Component */}
-      {/* <Image /> */}
-      {/* Text Component */}
-      {/* <Text /> */}
-
-      {/* Button Component */}
-      {/* <Button /> */}
+      <Footer/>
     </>
   );
 }
