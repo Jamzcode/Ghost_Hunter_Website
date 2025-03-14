@@ -2,7 +2,7 @@ export default function ImageCard() {
   return (
     <>
       <div>
-        <img style={styles.image} src="https://placehold.co/600x400" alt="" />
+        <img style={styles.image} src="https://placehold.co/200" alt="" />
       </div>
     </>
   );
