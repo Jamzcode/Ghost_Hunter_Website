@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: gray;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}

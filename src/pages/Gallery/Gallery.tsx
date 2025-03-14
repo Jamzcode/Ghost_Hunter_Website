@@ -1,5 +1,6 @@
 import ImageCard from "../../components/Image/Image";
 import Headline from "../../components/Headline/Headline";
+import Button from "../../components/Button/Button";
 export default function Gallery() {
   return (
     <>
@@ -16,6 +17,9 @@ export default function Gallery() {
         <ImageCard />
         <ImageCard />
         <ImageCard />
+        <div>
+          <Button to="../shop" label="Visit Shop" />
+        </div>
       </div>
     </>
   );

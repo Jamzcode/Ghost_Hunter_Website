@@ -1,6 +1,6 @@
 import ImageCard from "../../components/Image/Image";
 import Headline from "../../components/Headline/Headline";
-
+import Button from "../../components/Button/Button";
 export default function Shop() {
   return (
     <>
@@ -13,7 +13,9 @@ export default function Shop() {
         <ImageCard />
         <ImageCard />
         <ImageCard />
-        <button>Buy Now</button>
+        <div>
+          <Button label="Visit Shop"/>
+        </div>
       </div>
     </>
   );

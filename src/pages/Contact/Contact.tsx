@@ -1,5 +1,6 @@
 import ImageCard from "../../components/Image/Image";
 import Headline from "../../components/Headline/Headline";
+import Button from "../../components/Button/Button";
 export default function Contact() {
   return (
     <>
@@ -24,25 +25,23 @@ export default function Contact() {
           <div>EveryDay Always AllTheTime</div>
           <div>EveryDay Always AllTheTime</div>
         </div>
-        <h2>SECTION 8</h2>
         <h3>
           Midknightscares are available for next paranormal adventure! Follow,
           Like, Subscribe and Share!
         </h3>
         <div className="section">
           This is Contactpage FORM
-          <h2>SECTION 9</h2>
           {/* MAKE: SignUp popup page for user to enter information for newsletter. */}
-          <h3>Join our mailing/SMS texting list</h3>
+          <Headline headline="Join our mailing/SMS texting list" />
           <div>
             <h3>Form</h3>
             <div>Name</div>
             <div>Email</div>
-            <button>Sign Up</button>
+           <Button label="Submit"/>
           </div>
         </div>
         {/* TODO: Leads to contact page */}
-        <button>Get In Touch</button>
+        
       </div>
     </>
   );

@@ -6,7 +6,6 @@ export default function NavigationBar() {
     <nav className={styles.navigation}>
       <Link to="./">Home</Link>
       <Link to="./tour">Find a Tour</Link>
-      <Link to="./contact">Contact</Link>
       <Link to="./gallery">Gallery</Link>
       <Link to="./contact">Contact Us</Link>
       <Link to="./mission">Mission</Link>

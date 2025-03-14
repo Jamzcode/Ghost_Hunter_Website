@@ -1,5 +1,6 @@
 import ImageCard from "../../components/Image/Image";
 import Headline from "../../components/Headline/Headline";
+import Button from "../../components/Button/Button";
 
 export default function Home() {
   return (
@@ -12,13 +13,13 @@ export default function Home() {
         {/* Title */}
         <Headline headline="Welcome to the world of Midknightscares!" />
         {/* TODO: Add pic */}
-        <div>pic</div>
         <ImageCard />
         {/* TODO: Add Video */}
         <div>video</div>
         <ImageCard />
         {/* TODO: Button goes to Mission Statement page */}
-        <button>GetStarted</button>
+        <Button label="Get Started" to="./mission">
+        </Button>
       </div>
     </>
   );
