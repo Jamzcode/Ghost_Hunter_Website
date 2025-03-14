@@ -18,16 +18,18 @@ function App() {
     <>
       <Title />
       <NavigationBar />
-      <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/tour" element={<Tour />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/mission" element={<Mission />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/donation" element={<Donation />} />
-      </Routes>
-      <Footer/>
+      <div className="routes-view">
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/tour" element={<Tour />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/donation" element={<Donation />} />
+        </Routes>
+      </div>
+      <Footer />
     </>
   );
 }

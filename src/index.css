@@ -1,4 +1,8 @@
-.section{
-    border: solid black 2px;
-    background: coral;
+.section {
+  border: solid black 2px;
+  background: coral;
+}
+
+.routes-view {
+  min-height: 100vh;
 }
