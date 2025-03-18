@@ -1,8 +1,13 @@
-.section {
-  border: solid black 2px;
-  background: coral;
-}
-
 .routes-view {
   min-height: 100vh;
+}
+
+body {
+  background-color: rgb(5, 5, 5);
+  color: white;
+  margin: 0px;
+}
+
+.background {
+  background-color: rgb(25, 25, 25);
 }

@@ -1,0 +1,30 @@
+.imageContainer {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: gray;
+}
+
+.image {
+  width: 600px;
+  height: 730px;
+  background: white;
+}
+
+.textContainer {
+  border: white 1px solid;
+}
+.buttonContainer {
+  border: white 1px solid;
+}
+.textButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.frontispieceLayout {
+  min-height: 75vh;
+  display: flex;
+  
+}

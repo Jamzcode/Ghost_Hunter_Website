@@ -3,7 +3,7 @@ import styles from "./NavigationBar.module.css"
 
 export default function NavigationBar() {
   return (
-    <nav className={styles.navigation}>
+    <nav className={`background ${styles.navigation}`}>
       <Link to="./">Home</Link>
       <Link to="./tour">Find a Tour</Link>
       <Link to="./gallery">Gallery</Link>
@@ -11,6 +11,7 @@ export default function NavigationBar() {
       <Link to="./mission">Mission</Link>
       <Link to="./shop">Shop</Link>
       <Link to="./donation">Donation</Link>
+      <Link to="./frontispiece">Frontispiece</Link>
     </nav>
   );
 }

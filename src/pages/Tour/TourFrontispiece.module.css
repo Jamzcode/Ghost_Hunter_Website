@@ -1,0 +1,22 @@
+.frontispieceContainer {
+  display: flex;
+}
+
+.image {
+  width: 530px;
+  height: 380px;
+  background: white;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  background: gray;
+  padding: 5px;
+}
+
+.textButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

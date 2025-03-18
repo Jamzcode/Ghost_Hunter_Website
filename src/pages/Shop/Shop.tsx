@@ -4,17 +4,15 @@ import Button from "../../components/Button/Button";
 export default function Shop() {
   return (
     <>
-      <div className="section">
+      <div className="background">
         {/* MAKE: Shop page for merchandise */}
         <Headline headline="Midknightscare merchandise" />
         <ImageCard />
         <ImageCard />
         <ImageCard />
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
+
         <div>
-          <Button label="Visit Shop"/>
+          <Button label="Visit Shop" />
         </div>
       </div>
     </>

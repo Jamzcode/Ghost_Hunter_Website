@@ -5,15 +5,15 @@ import Button from "../../components/Button/Button";
 export default function Donation() {
   return (
     <>
-      <div className="section">
+      <div className="background">
         <Headline headline="Midknightscare donation and suggestion box" />
         {/* TODO: lead to Venmo, Patreon, etc payment portal. Redirect notification page.  */}
         <ImageCard />
+        {/* <ImageCard />
         <ImageCard />
         <ImageCard />
         <ImageCard />
-        <ImageCard />
-        <ImageCard />
+        <ImageCard /> */}
         <div>
           <Button label="Fund My Journey" />
         </div>

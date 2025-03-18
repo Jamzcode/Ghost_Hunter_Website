@@ -9,7 +9,7 @@ export default function Home() {
       {/* MAKE: SocialMedia component */}
       {/* MAKE: ImageCarousel component */}
 
-      <div className="section">
+      <div className="background">
         {/* Title */}
         <Headline headline="Welcome to the world of Midknightscares!" />
         {/* TODO: Add pic */}

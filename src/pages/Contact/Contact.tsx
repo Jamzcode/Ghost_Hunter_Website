@@ -4,7 +4,7 @@ import Button from "../../components/Button/Button";
 export default function Contact() {
   return (
     <>
-      <div className="section">
+      <div className="background">
         <Headline headline="Contact me for more Midknightscares" />
         <ImageCard />
         <p>

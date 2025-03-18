@@ -5,7 +5,7 @@ import Button from "../../components/Button/Button";
 export default function Mission() {
   return (
     <>
-      <div className="section">
+      <div className="background">
         <Headline headline="Mission Statment: To find out what really goes bump in the night!" />
 
         <div>
@@ -17,9 +17,9 @@ export default function Mission() {
         <ImageCard />
         <ImageCard />
         <ImageCard />
+        {/* <ImageCard />
         <ImageCard />
-        <ImageCard />
-        <ImageCard />
+        <ImageCard /> */}
         <div>
           <Button to="../gallery" label="Check out Gallery"/>
         </div>

@@ -2,8 +2,8 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   return (
     <>
-      <div className="section">
-        <div className={styles.footer}>
+ 
+        <div className={`background ${styles.footer}`}>
           <div className={styles.icons}>
             <div>FaceBook</div>
             <div>Instagram</div>
@@ -16,7 +16,7 @@ export default function Footer() {
          Instagram link (https://www.instagram.com/midknightscares?igsh=MTlqbHZxa2Jxd3FwcA%3D%3D&utm_source=qr)
         TikTok link (https://www.tiktok.com/@midknightscares?_t=ZP-8uPGPMelD9q&_r=1) 
         YouTube link (https://youtube.com/@midknightscare?si=D0HHzEHpm1rlCBLl) */}
-      </div>
+      
     </>
   );
 }

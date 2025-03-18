@@ -5,5 +5,5 @@ interface HeadlineProps {
 }
 
 export default function Text({headline}: HeadlineProps) {
-  return <h2 className={styles.text}>{headline}</h2>;
+  return <h2 className={`background ${styles.text}`}>{headline}</h2>;
 }

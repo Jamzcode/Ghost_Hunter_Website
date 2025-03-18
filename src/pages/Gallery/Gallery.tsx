@@ -4,7 +4,7 @@ import Button from "../../components/Button/Button";
 export default function Gallery() {
   return (
     <>
-      <div className="section">
+      <div className="background">
         <Headline headline="Midknightscares vs the spooky things" />
         {/* TODO: Add spot for 10 picture photo gallery(Rotational) */}
         <ImageCard />

@@ -6,7 +6,7 @@ import Button from "../../components/Button/Button";
 export default function Tour() {
   return (
     <>
-      <div className="section">
+      <div className="background">
         <Headline headline="Ghost Hunting, Paranormal investigations, Haunted Walkthroughs" />
         {/* gallery of images */}
         <ImageCard />
