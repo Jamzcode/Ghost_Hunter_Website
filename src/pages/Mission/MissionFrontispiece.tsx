@@ -5,7 +5,9 @@ import Button from "../../components/Button/Button";
 export default function MissionFrontispiece() {
   return (
     <>
-      <div className={styles.frontispieceLayout}>
+      <div className={styles.frontispieceContainer
+      }>
+        
         <div className={styles.imageContainer}>
           <img className={styles.image} />
         </div>

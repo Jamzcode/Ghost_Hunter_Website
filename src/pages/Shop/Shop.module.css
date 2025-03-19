@@ -1,0 +1,22 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.image {
+  width: 430px;
+  height: 650px;
+  background: lightblue;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}

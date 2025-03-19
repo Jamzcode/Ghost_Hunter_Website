@@ -1,0 +1,67 @@
+.layout {
+  display: flex;
+  padding: 5px;
+}
+
+.leftSection {
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.image {
+  width: 640px;
+  height: 340px;
+  background: lightblue;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.descriptionContainer {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.contactInformationContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.hoursContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  border: white solid 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}

@@ -1,30 +1,38 @@
+.frontispieceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  min-height: 100vh;
+}
+
 .imageContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 5px;
-  background: gray;
 }
 
 .image {
   width: 600px;
   height: 730px;
-  background: white;
+  background: lightblue;
 }
 
 .textContainer {
-  border: white 1px solid;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
+
 .buttonContainer {
-  border: white 1px solid;
+  display: flex;
+  justify-content: center;
 }
+
+
 .textButtonContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.frontispieceLayout {
-  min-height: 75vh;
-  display: flex;
-  
 }

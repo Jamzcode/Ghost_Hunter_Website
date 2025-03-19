@@ -7,10 +7,12 @@ export default function ContactFrontispiece() {
       <div className={styles.frontispieceContainer}>
         <div className={styles.imageWrapper}>
           <div className={styles.imageContainer}>
-            <img className={styles.image} />
-          </div>
-          <div className={styles.imageContainer}>
-            <img className={styles.image} />
+            <div>
+              <img className={styles.image} />
+            </div>
+            <div>
+              <img className={styles.image} />
+            </div>
           </div>
         </div>
         <div className={styles.text}>

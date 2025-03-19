@@ -1,22 +1,41 @@
 .frontispieceContainer {
   display: flex;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }
 
 .image {
   width: 530px;
   height: 380px;
-  background: white;
+  background: lightblue;
 }
 
 .imageContainer {
+  height: 100%;
+  width: 100%;
   display: flex;
+  flex: 1;
+  align-items: center;
   justify-content: center;
-  background: gray;
   padding: 5px;
 }
 
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .textButtonContainer {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
   justify-content: center;
 }

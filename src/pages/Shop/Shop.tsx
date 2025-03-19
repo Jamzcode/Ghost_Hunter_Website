@@ -1,4 +1,6 @@
-import ImageCard from "../../components/Image/Image";
+import styles from "./Shop.module.css";
+
+// import ImageCard from "../../components/Image/Image";
 import Headline from "../../components/Headline/Headline";
 import Button from "../../components/Button/Button";
 export default function Shop() {
@@ -6,12 +8,17 @@ export default function Shop() {
     <>
       <div className="background">
         {/* MAKE: Shop page for merchandise */}
-        <Headline headline="Midknightscare merchandise" />
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
+        <div className={styles.headerContainer}>
+          <Headline headline="Midknightscare merchandise" />
+        </div>
 
-        <div>
+        <div className={styles.imageContainer}>
+          <img className={styles.image} />
+          <img className={styles.image} />
+          <img className={styles.image} />
+        </div>
+
+        <div className={styles.buttonContainer}>
           <Button label="Visit Shop" />
         </div>
       </div>

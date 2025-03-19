@@ -1,35 +1,33 @@
-.frontispieceContainer{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.frontispieceContainer {
+  min-height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.imageWrapper{
-    display: flex;
-    justify-content: space-between;
+.imageContainer {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
-.imageContainer{
-    background: gray;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
+.image {
+  background: lightblue;
+  width: 400px;
+  height: 300px;
 }
 
-.image{
-    background: white;
-    width: 650px;
-    height: 380px;
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.buttonContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

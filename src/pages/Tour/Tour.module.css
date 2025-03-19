@@ -1,0 +1,30 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 540px;
+  height: 420px;
+  background: lightblue
+}
+
+.descriptionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}

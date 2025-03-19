@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.imageSection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 350px;
+  height: 200px;
+  background: lightblue;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

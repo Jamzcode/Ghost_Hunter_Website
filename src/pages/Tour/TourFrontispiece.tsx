@@ -7,10 +7,12 @@ export default function TourFrontispiece() {
       <div className={styles.frontispieceContainer}>
         <div className={styles.textButtonContainer}>
           <div className={styles.textContainer}>
-            knightmarescare is available for tours now!
+            <div className={styles.text}>
+              knightmarescare is available for tours now!
+            </div>
           </div>
           <div className={styles.buttonContainer}>
-            <Button label="Book a Tour" to="../tour"/>
+            <Button label="Book a Tour" to="../tour" />
           </div>
         </div>
 

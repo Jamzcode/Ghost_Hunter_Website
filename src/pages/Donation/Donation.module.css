@@ -1,0 +1,42 @@
+.buttonContainer {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.image {
+  background: lightblue;
+  width: 1300px;
+  height: 500px;
+}
+
+.descriptionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
