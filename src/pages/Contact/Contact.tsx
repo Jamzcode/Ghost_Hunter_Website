@@ -2,7 +2,7 @@ import styles from "./Contact.module.css";
 
 // import ImageCard from "../../components/Image/Image";
 import Headline from "../../components/Headline/Headline";
-import Button from "../../components/Button/Button";
+// import Button from "../../components/Button/Button";
 export default function Contact() {
   return (
     <>
@@ -49,12 +49,48 @@ export default function Contact() {
             {/* MAKE: SignUp popup page for user to enter information for newsletter. */}
             <Headline headline="Join our mailing/SMS texting list" />
             <div className={styles.form}>
-              <h3>Form</h3>
+              <>
+                <form
+                  name="contact"
+                  method="POST"
+                  data-netlify="true"
+                  className={styles.formContainer}
+                >
+                  <input type="hidden" name="form-name" value="contact" />
+                  <div>
+                    <label>
+                      <div className={styles.input}>
+                        Your Name: <input type="text" name="name" />
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label>
+                      <div className={styles.input}>
+                        Your Email: <input type="email" name="email" />
+                      </div>
+                    </label>
+                  </div>
+
+                  <div>
+                    <label>
+                      <div className={styles.messageBox}>
+                        Message: <textarea name="message"></textarea>
+                      </div>
+                    </label>
+                  </div>
+                  <div className={styles.btnContainer}>
+                    <button type="submit">Submit Info</button>
+                  </div>
+                </form>
+              </>
+
+              {/* <h3>Form</h3>
               <div>Name</div>
               <div>Email</div>
               <div className={styles.buttonContainer}>
                 <Button label="Submit" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
