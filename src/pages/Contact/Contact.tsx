@@ -30,13 +30,13 @@ export default function Contact() {
 
           <div className={styles.hoursContainer}>
             <h3>Hours of Operation</h3>
-            <div>EveryDay Always AllTheTime</div>
-            <div>EveryDay Always AllTheTime</div>
-            <div>EveryDay Always AllTheTime</div>
-            <div>EveryDay Always AllTheTime</div>
-            <div>EveryDay Always AllTheTime</div>
-            <div>EveryDay Always AllTheTime</div>
-            <div>EveryDay Always AllTheTime</div>
+            <div>M</div>
+            <div>T</div>
+            <div>W</div>
+            <div>Th</div>
+            <div>Fr</div>
+            <div>Sa</div>
+            <div>Su</div>
           </div>
         </div>
         <div className={styles.rightSection}>
